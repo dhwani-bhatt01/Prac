@@ -50,8 +50,24 @@
 }
 
 /* Gallery */
-.sec2 {
+.sec2 gallery {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.sec2 h3 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.sec3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px;
+}
+
+.sec3-text p {
+  margin-top: 10px;
 }
